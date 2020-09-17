@@ -1,0 +1,28 @@
+<template>
+    <t t-name="web.ListFilterCheck">
+        <li class="o_list_filter_option" t-att-data-id="widget.jsId">
+            <div class="custom-control custom-checkbox" style="display:inline-block;">
+                <input type="checkbox" t-att-id="widget.jsId" class="custom-control-input"  />
+                <label t-att-for="widget.jsId" class="custom-control-label">​</label>
+            </div>
+            <span t-att-data-value="widget.value[0]">
+                <t t-esc="widget.value[1]"/>
+            </span>
+        </li>
+
+    </t>
+
+    <t t-name="web.ListFilter">
+        <div class="o_list_filter">
+            <div class="form__group field">
+                <input type="input" class="form__field" autocomplete="off" t-att-placeholder="widget.string" name="name" id='name'  />
+                <label for="name" class="form__label"><t t-esc="widget.string" /></label>
+            </div>
+            <ul class="checked">
+            </ul>
+            <ul class="options">
+            </ul>
+        </div>
+    </t>
+
+</template>
