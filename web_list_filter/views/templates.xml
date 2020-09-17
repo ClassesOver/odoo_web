@@ -2,8 +2,8 @@
     <data>
         <template id="assets_backend" name="assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
-                <script type="text/javascript" src="/list_filter/static/src/js/widgets.js" />
-                <link rel="stylesheet" type="text/scss" href="/list_filter/static/src/scss/style.scss"/>
+                <script type="text/javascript" src="/web_list_filter/static/src/js/widgets.js" />
+                <link rel="stylesheet" type="text/scss" href="/web_list_filter/static/src/scss/style.scss"/>
             </xpath>
         </template>
 
